@@ -3,15 +3,17 @@
     padding: 0;
     border:0;
 }
+
+
   /* header */
 header{
-    background-color: rgb(110, 120, 127);
+    /* background-color: rgb(234, 237, 239); */
     height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 35px;
 }
 .logo{
     font-size: 30px;
@@ -34,7 +36,8 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-}
+} 
+                         /* section 1 */
 .container1{
      /* background-color: rgb(221, 231, 238);  */
     background-color:rgb(236, 242, 243);
@@ -82,15 +85,17 @@ p{
     margin: auto;
 }       
                   /* section 3 */
+        
                   
-    #ipad-image{
-     width: 90%;
-    height: auto;
-    margin: auto;
-    max-width: 700px;
-    justify-content: center;
-    display:block;
-      }         
+     #ipad-image{ 
+      width: 100%; 
+    height: auto; 
+     margin: auto; 
+     max-width: 700px; 
+     justify-content: center; 
+     display:block; 
+     background-color:rgb(236, 242, 243);
+       }          
               /*section 4  */
        #airpods-image{
     width: 70%;
