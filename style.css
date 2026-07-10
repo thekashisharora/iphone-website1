@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+}
+  /* header */
+header{
+    background-color: rgb(110, 120, 127);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.logo{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.fa-solid {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container1{
+     /* background-color: rgb(221, 231, 238);  */
+    background-color:rgb(236, 242, 243);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+p{
+    text-align: center; 
+    
+    font-weight: bold;
+}
+#learn{
+    text-align: center;
+    font-weight:bold;
+    color: black;
+    background-color:rgb(141, 234, 234);
+    border-radius: 80px;
+    margin:10px 10px;
+    padding:12px;
+}
+#shop{
+    font-weight:bold;
+    border-radius: 80px;
+    margin:10px 10px;
+    padding:12px;
+    
+}
+/* #iphone-image{ */
+    /* width: 100%; */
+    /* max-width: 600px; */
+    /* height: auto; */
+    /* margin: 20px auto 0; */
+    /* display: block; */
+/* } */
+                      /* section 2 */
+.container2{
+    background-color:rgb(183, 226, 227);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}       
+                  /* section 3 */
+                  
+    #ipad-image{
+     width: 90%;
+    height: auto;
+    margin: auto;
+    max-width: 700px;
+    justify-content: center;
+    display:block;
+      }         
+              /*section 4  */
+       #airpods-image{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    max-width: 600px;
+    justify-content: center;
+    display:block;
+      }    
+           /* section 5 */
+       #watch-image{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin:  0 auto;
+        display: block;
+       }    
+       /* section 6 */
+       .container3{ 
+        /* background-color:rgb(221, 231, 238); */
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+       }
+       /* section 7 */
+       .card-image{
+        display: block;
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+       }
+       /* section 8 */
+    
+        
+       
+
