@@ -43,7 +43,7 @@ h1{
     background-color:rgb(236, 242, 243);
     height: 100%;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     margin: auto;
 }
@@ -70,19 +70,27 @@ p{
 }
 #iphone-image{ 
     width: 100%; 
-     max-width: 85%; 
-     height: auto; 
-    margin: 10px auto 0; 
+    max-width: 700px; 
+    height: auto; 
+    margin: 20px auto 0; 
     display: block; 
- } 
+} 
                       /* section 2 */
 .container2{
-    background-color:rgb(183, 226, 227);
+    /* background-color:rgb(183, 226, 227); */
+    background-color:rgb(236, 242, 243);
     height: 100%;
     width: 100%;
     padding: 10px;
-    text-align: center;
+    text-align: center; 
     margin: auto;
+}
+#mac-image{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto 0;
+    display: block;
 }       
                   /* section 3 */
         
@@ -115,23 +123,37 @@ p{
        }    
        /* section 6 */
        .container3{ 
-        /* background-color:rgb(221, 231, 238); */
+        background-color:rgb(236, 242, 243);
         height: 100%;
         width: 100%;
         padding: 10px;
         text-align: center;
         margin: auto;
        }
-       /* section 7 */
+        
        .card-image{
         display: block;
         width: 90%;
         max-width: 500px;
         height: auto;
-        margin: 0 auto;
+        margin: 20px auto 0;
        }
-       /* section 8 */
-    
+       /* section 7 */
+    .apple-footer{
+        background-color:rgb(236, 242, 243);
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+
+    }
+    .footer-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+    }
         
        
 
