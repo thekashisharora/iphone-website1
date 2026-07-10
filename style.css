@@ -38,12 +38,12 @@ h1{
     font-weight: bold;
 } 
                          /* section 1 */
-.container1{
+.container{
      /* background-color: rgb(221, 231, 238);  */
     background-color:rgb(236, 242, 243);
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     margin: auto;
 }
@@ -68,13 +68,13 @@ p{
     padding:12px;
     
 }
-/* #iphone-image{ */
-    /* width: 100%; */
-    /* max-width: 600px; */
-    /* height: auto; */
-    /* margin: 20px auto 0; */
-    /* display: block; */
-/* } */
+#iphone-image{ 
+    width: 100%; 
+     max-width: 85%; 
+     height: auto; 
+    margin: 10px auto 0; 
+    display: block; 
+ } 
                       /* section 2 */
 .container2{
     background-color:rgb(183, 226, 227);
@@ -94,7 +94,7 @@ p{
      max-width: 700px; 
      justify-content: center; 
      display:block; 
-     background-color:rgb(236, 242, 243);
+     /* background-color:rgb(236, 242, 243); */
        }          
               /*section 4  */
        #airpods-image{
