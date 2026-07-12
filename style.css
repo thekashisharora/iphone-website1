@@ -54,15 +54,15 @@ h1{
     min-height: 520px;
     overflow: hidden;
     line-height: 0;
+    isolation: isolate;
 }
 
 /* Hero Content Positioning */
 .hero-content {
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    inset: 0 0 auto 0;
     width: min(100%, 680px);
+    margin: 0 auto;
     text-align: center;
     z-index: 10;
     display: flex;
@@ -137,31 +137,31 @@ p {
     height: auto;
     display: block;
     object-fit: cover;
-
+    position: relative;
+    z-index: 1;
     margin: 0;
 }
 
 @media (max-width: 768px) {
     .container, .container2, .container3 {
-        min-height: 320px;
+        min-height: 280px;
     }
 
     .hero-content {
-        top: 8px;
         width: min(92%, 420px);
-        padding: 16px 10px 0;
-        gap: 8px;
+        padding: 12px 10px 0;
+        gap: 6px;
     }
 
     .hero-buttons {
-        margin-top: 4px;
-        gap: 10px;
+        margin-top: 2px;
+        gap: 8px;
     }
 
     .learn,
     .shop {
-        padding: 10px 16px;
-        font-size: 14px;
+        padding: 9px 14px;
+        font-size: 13px;
     }
 }
 /* Footer Styles */
