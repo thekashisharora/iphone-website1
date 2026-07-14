@@ -1,7 +1,7 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -74,35 +74,19 @@ h1{
     padding: 30px 20px;
 }
 
-/* Overlay text centered on top of images for hero sections */
+/* Hero text sits above the image in normal flow (not overlaid on top of it) */
 .container .hero-content,
 .container2 .hero-content,
 .container3 .hero-content {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    z-index: 2;
+    position: static;
+    color: #1d1d1f;
+    z-index: auto;
     max-width: 680px;
-    padding: 0;
+    padding: 40px 20px 10px;
     background: transparent;
     border-radius: 0;
     text-align: center;
-    text-shadow: 0 6px 18px rgba(0,0,0,0.6);
-}
-
-@media (max-width: 768px) {
-    .container .hero-content,
-    .container2 .hero-content,
-    .container3 .hero-content {
-        position: absolute;
-        top: 6%;
-        transform: translateX(-50%);
-        background: transparent;
-        margin: 0 auto;
-        padding: 0 10px;
-    }
+    text-shadow: none;
 }
 
 .hero-content h1,
@@ -169,24 +153,12 @@ p {
     width: 100%;
     height: auto;
     display: block;
-    
-    margin: 20px ;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
     .container, .container2, .container3 {
         min-height: 320px;
-    }
-
-    .hero-content {
-        top: 10px;
-        width: min(92%, 420px);
-        
-        gap: 5px;
-        background: rgba(255, 255, 255, 0.72);
-        border-radius: 16px;
-        backdrop-filter: blur(6px);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     }
 
     .hero-content h1 {
@@ -309,4 +281,3 @@ p {
 .footer-legal li a:hover {
     text-decoration: underline;
 }
-                
